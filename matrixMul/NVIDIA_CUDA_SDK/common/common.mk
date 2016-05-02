@@ -52,7 +52,7 @@ LIBDIR     := $(ROOTDIR)/../lib
 COMMONDIR  := $(ROOTDIR)/../common
 
 # Compilers
-NVCC       := nvcc 
+NVCC       := /usr/local/cuda-7.5/bin/nvcc 
 CXX        := g++
 CC         := gcc
 LINK       := g++ -fPIC
