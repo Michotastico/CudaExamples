@@ -35,7 +35,7 @@
 
 .SUFFIXES : .cu .cu_dbg_o .c_dbg_o .cpp_dbg_o .cu_rel_o .c_rel_o .cpp_rel_o .cubin
 
-CUDA_INSTALL_PATH ?= /usr/local/cuda
+CUDA_INSTALL_PATH ?= /usr/local/cuda-7.5
 
 ifdef cuda-install
 	CUDA_INSTALL_PATH := $(cuda-install)
