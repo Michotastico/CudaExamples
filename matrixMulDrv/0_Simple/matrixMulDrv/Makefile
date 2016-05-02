@@ -156,7 +156,7 @@ SAMPLE_ENABLED := 1
 PTX_FILE := matrixMul_kernel${OS_SIZE}.ptx
 
 # Gencode arguments
-SMS ?= 35 37 50
+SMS ?= 
 
 ifeq ($(GENCODE_FLAGS),)
 # Generate SASS code for each SM architecture listed in $(SMS)
